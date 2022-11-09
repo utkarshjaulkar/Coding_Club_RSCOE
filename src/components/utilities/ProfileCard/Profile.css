@@ -33,7 +33,7 @@
   height: 100%;
   margin-top: -30px;
   transform: skewY(-15deg);
-  background-image: url("./images/profile-demo.png");
+
   background-size: 100%;
   background-position: center;
   transition: all 0.3s ease;

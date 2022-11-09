@@ -9,7 +9,9 @@ const Profile = (props) => {
       <div class="profile">
         <div class="img-container">
           <div class="skewed">
-            <div id="img"></div>
+            <div id="img">
+              <img src="./images/profile-demo.png"/>
+            </div>
           </div>
         </div>
         <div class="content">
