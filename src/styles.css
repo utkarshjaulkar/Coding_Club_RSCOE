@@ -14,7 +14,6 @@ body {
   text-align: center;
 }
 .home-div {
-  background-image: url("./images/background.jpg");
   height: 100vh;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -25,7 +24,6 @@ body {
 
 @media screen and (max-width: 850px) {
   .home-div {
-    background-image: url("./images/backgroundMob.jpg");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: 100%;
