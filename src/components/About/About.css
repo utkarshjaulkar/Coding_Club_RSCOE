@@ -136,6 +136,11 @@
   color: var(--dark);
   font-size: 18px;
   line-height: 1.4;
+  text-align: justify;
+}
+
+.card__body li{
+  line-height: 0.8cm;
 }
 
 @media screen and (max-width: 850px) {
