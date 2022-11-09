@@ -33,15 +33,14 @@
   height: 100%;
   margin-top: -30px;
   transform: skewY(-15deg);
-
-  background-size: 100%;
-  background-position: center;
+  image-resolution: 100%;
+  position: center;
   transition: all 0.3s ease;
 }
 
 #img:hover {
   position: relative;
-  background-size: 110%;
+  image-resolution: 110%;
 }
 
 .content {
