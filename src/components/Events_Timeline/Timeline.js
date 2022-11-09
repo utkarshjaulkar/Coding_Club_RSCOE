@@ -21,93 +21,84 @@ const Timeline = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="2011 - present"
+           
             iconStyle={{ background: "rgb(33, 150, 43)", color: "#fff" }}
           >
             <h3 className="vertical-timeline-element-title">
-              Creative Director
+              Events timeline
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+            <h4 className="vertical-timeline-element-subtitle"></h4>
             <p>
-              Creative Direction, User Experience, Visual Design, Project
-              Management, Team Leading
+             Timeline of events
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2010 - 2011"
+            date="Month Year"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           >
-            <h3 className="vertical-timeline-element-title">Art Director</h3>
+            <h3 className="vertical-timeline-element-title"></h3>
             <h4 className="vertical-timeline-element-subtitle">
-              San Francisco, CA
+              Event 5
             </h4>
             <p>
-              Creative Direction, User Experience, Visual Design, SEO, Online
-              Marketing
+              Details of Event
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2008 - 2010"
+            date="Month Year"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
+            <h3 className="vertical-timeline-element-title"></h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Los Angeles, CA
+              Event 4
             </h4>
-            <p>User Experience, Visual Design</p>
+            <p>
+              Details of Event
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2006 - 2008"
+            date="Month Year"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
+            <h3 className="vertical-timeline-element-title"></h3>
             <h4 className="vertical-timeline-element-subtitle">
-              San Francisco, CA
+              Event 3
             </h4>
-            <p>User Experience, Visual Design</p>
+            <p>
+              Details of Event
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            date="April 2013"
-            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+            className="vertical-timeline-element--work"
+            date="Month Year"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           >
-            <h3 className="vertical-timeline-element-title">
-              Content Marketing for Web, Mobile and Social Media
-            </h3>
+            <h3 className="vertical-timeline-element-title"></h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Online Course
+              Event 2
             </h4>
-            <p>Strategy, Social Media</p>
+            <p>
+              Details of Event
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            date="November 2012"
-            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+            className="vertical-timeline-element--work"
+            date="Month Year"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           >
-            <h3 className="vertical-timeline-element-title">
-              Agile Development Scrum Master
-            </h3>
+            <h3 className="vertical-timeline-element-title"></h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Certification
+              Event 1
             </h4>
-            <p>Creative Direction, User Experience, Visual Design</p>
+            <p>
+              Details of Event
+            </p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            date="2002 - 2006"
-            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-          >
-            <h3 className="vertical-timeline-element-title">
-              Bachelor of Science in Interactive Digital Media Visual Imaging
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Bachelor Degree
-            </h4>
-            <p>Creative Direction, Visual Design</p>
-          </VerticalTimelineElement>
+          
+          
           <VerticalTimelineElement
             iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
           />

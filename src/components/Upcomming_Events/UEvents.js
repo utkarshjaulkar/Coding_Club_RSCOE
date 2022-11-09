@@ -12,7 +12,7 @@ const UEvents = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="2011 - present"
+          
           iconStyle={{ background: "rgb(33, 150, 43)", color: "#fff" }}
         >
           <h3 className="vertical-timeline-element-title">Upcoming Events</h3>
