@@ -147,6 +147,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-left: 50px;
+    padding-left: 0px;
+  }
+
+  .faculty-div-1 {
+    width: 80%;
+    padding: 20px;
+    padding-left: 0px;
+    margin-left: 10px;
   }
 }
