@@ -1,4 +1,4 @@
-import "./Footer.css";
+import './Footer.css'
 const Footer = () => {
   return (
     <>
@@ -66,9 +66,12 @@ const Footer = () => {
             </div>
             <div className="developer">
               <p>
-                {" "}
-                Developed with ❤️ By{" "}
-                <a href="https://www.linkedin.com/in/utkarsh-jaulkar/">
+                {' '}
+                Developed with ❤️ By{' '}
+                <a
+                  href="https://www.linkedin.com/in/utkarsh-jaulkar/"
+                  target="_blank"
+                >
                   Utkarsh Jaulkar
                 </a>
               </p>
@@ -90,7 +93,7 @@ const Footer = () => {
         </div>
       </footer>
     </>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

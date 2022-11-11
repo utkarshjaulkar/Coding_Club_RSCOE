@@ -9,7 +9,7 @@ const Faculty = () => {
       <Navbar />
 
       <div className="card-profile">
-        <div class="faculty-div-1 animate__animated animate__bounceInLeft">
+        <div class="faculty-div-1 animate__animated animate__fadeIn">
           <div class="our-team ">
             <div class="picture">
               <img class="img-fluid" src="./team-images/Avinash-sir.png" />
@@ -21,7 +21,7 @@ const Faculty = () => {
             <ul class="social"> </ul>
           </div>
         </div>
-        <div class="faculty-div-1 animate__animated animate__bounceInRight">
+        <div class="faculty-div-1 animate__animated animate__fadeIn">
           <div class="our-team ">
             <div class="picture">
               <img class="img-fluid" src="./team-images/amruta-mam.png" />

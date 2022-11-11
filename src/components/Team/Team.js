@@ -32,7 +32,7 @@ const Team = () => {
                   </li> */}
                   <li>
                     <a
-                      href="linkedin.com/in/sarthak-borkar-bb247b1b3"
+                      href="https://www.linkedin.com/in/sarthak-borkar-bb247b1b3"
                       target="_blank"
                       class="fab fa-linkedin"
                       aria-hidden="true"
