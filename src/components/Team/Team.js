@@ -1,7 +1,7 @@
-import Navbar from "../Navbar/Navbar";
-import Footer from "../Footer/Footer";
-import "animate.css";
-import "./Team.css";
+import Navbar from '../Navbar/Navbar'
+import Footer from '../Footer/Footer'
+import 'animate.css'
+import './Team.css'
 const Team = () => {
   return (
     <>
@@ -15,19 +15,29 @@ const Team = () => {
             <div class="profile-div-1">
               <div class="our-team animate__animated animate__flip">
                 <div class="picture">
-                  <img class="img-fluid" src="./images/profile-demo.png" />
+                  <img class="img-fluid" src="./team-images/sarthak.jpg" />
                 </div>
                 <div class="team-content">
                   <h3 class="name">Sarthak Borkar</h3>
                   <h4 class="title">President</h4>
                 </div>
                 <ul class="social">
+                  {/* <li>
+                    <a
+                      href="mailto:"
+                      target="_blank"
+                      class="fa-solid fa-envelope"
+                      aria-hidden="true"
+                    ></a>
+                  </li> */}
                   <li>
-                    <a href="#" class="fab fa-github" aria-hidden="true"></a>
-                  </li>
-                  <li>
-                    <a href="#" class="fab fa-linkedin" aria-hidden="true"></a>
-                  </li>{" "}
+                    <a
+                      href="linkedin.com/in/sarthak-borkar-bb247b1b3"
+                      target="_blank"
+                      class="fab fa-linkedin"
+                      aria-hidden="true"
+                    ></a>
+                  </li>{' '}
                 </ul>
               </div>
             </div>
@@ -56,7 +66,7 @@ const Team = () => {
                       target="_blank"
                       aria-hidden="true"
                     ></a>
-                  </li>{" "}
+                  </li>{' '}
                 </ul>
               </div>
             </div>
@@ -86,7 +96,7 @@ const Team = () => {
                       class="fab fa-linkedin"
                       aria-hidden="true"
                     ></a>
-                  </li>{" "}
+                  </li>{' '}
                 </ul>
               </div>
             </div>
@@ -116,7 +126,7 @@ const Team = () => {
                       class="fab fa-linkedin"
                       aria-hidden="true"
                     ></a>
-                  </li>{" "}
+                  </li>{' '}
                 </ul>
               </div>
             </div>
@@ -146,7 +156,7 @@ const Team = () => {
                       class="fab fa-linkedin"
                       aria-hidden="true"
                     ></a>
-                  </li>{" "}
+                  </li>{' '}
                 </ul>
               </div>
             </div>
@@ -183,7 +193,7 @@ const Team = () => {
                       class="fab fa-linkedin"
                       aria-hidden="true"
                     ></a>
-                  </li>{" "}
+                  </li>{' '}
                 </ul>
               </div>
             </div>
@@ -212,7 +222,7 @@ const Team = () => {
                       class="fab fa-linkedin"
                       aria-hidden="true"
                     ></a>
-                  </li>{" "}
+                  </li>{' '}
                 </ul>
               </div>
             </div>
@@ -242,7 +252,7 @@ const Team = () => {
                       target="_blank"
                       aria-hidden="true"
                     ></a>
-                  </li>{" "}
+                  </li>{' '}
                 </ul>
               </div>
             </div>
@@ -272,7 +282,7 @@ const Team = () => {
                       target="_blank"
                       aria-hidden="true"
                     ></a>
-                  </li>{" "}
+                  </li>{' '}
                 </ul>
               </div>
             </div>
@@ -310,7 +320,7 @@ const Team = () => {
                       class="fab fa-linkedin"
                       aria-hidden="true"
                     ></a>
-                  </li>{" "}
+                  </li>{' '}
                 </ul>
               </div>
             </div>
@@ -340,7 +350,7 @@ const Team = () => {
                       target="_blank"
                       aria-hidden="true"
                     ></a>
-                  </li>{" "}
+                  </li>{' '}
                 </ul>
               </div>
             </div>
@@ -370,7 +380,7 @@ const Team = () => {
                       class="fab fa-linkedin"
                       aria-hidden="true"
                     ></a>
-                  </li>{" "}
+                  </li>{' '}
                 </ul>
               </div>
             </div>
@@ -408,7 +418,7 @@ const Team = () => {
                       class="fab fa-linkedin"
                       aria-hidden="true"
                     ></a>
-                  </li>{" "}
+                  </li>{' '}
                 </ul>
               </div>
             </div>
@@ -438,7 +448,7 @@ const Team = () => {
                       class="fab fa-linkedin"
                       aria-hidden="true"
                     ></a>
-                  </li>{" "}
+                  </li>{' '}
                 </ul>
               </div>
             </div>
@@ -468,7 +478,7 @@ const Team = () => {
                       class="fab fa-linkedin"
                       aria-hidden="true"
                     ></a>
-                  </li>{" "}
+                  </li>{' '}
                 </ul>
               </div>
             </div>
@@ -498,7 +508,7 @@ const Team = () => {
                       class="fab fa-linkedin"
                       aria-hidden="true"
                     ></a>
-                  </li>{" "}
+                  </li>{' '}
                 </ul>
               </div>
             </div>
@@ -528,7 +538,7 @@ const Team = () => {
                       class="fab fa-linkedin"
                       aria-hidden="true"
                     ></a>
-                  </li>{" "}
+                  </li>{' '}
                 </ul>
               </div>
             </div>
@@ -558,7 +568,7 @@ const Team = () => {
                       class="fab fa-linkedin"
                       aria-hidden="true"
                     ></a>
-                  </li>{" "}
+                  </li>{' '}
                 </ul>
               </div>
             </div>
@@ -567,7 +577,7 @@ const Team = () => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Team;
+export default Team
