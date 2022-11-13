@@ -1,11 +1,11 @@
-import { Button } from "react-bootstrap";
-import Navbar from "./Navbar/Navbar";
-import "./Home.css";
-import Footer from "./Footer/Footer";
-import Letter from "./utilities/Letter/Letter";
-import Tips from "./Weekly_Tips/Tips";
-import "animate.css";
-import UEvents from "./Upcomming_Events/UEvents";
+import { Button } from 'react-bootstrap'
+import Navbar from './Navbar/Navbar'
+import './Home.css'
+import Footer from './Footer/Footer'
+import Letter from './utilities/Letter/Letter'
+import Tips from './Weekly_Tips/Tips'
+import 'animate.css'
+import UEvents from './Upcomming_Events/UEvents'
 
 const Home = () => {
   return (
@@ -17,7 +17,7 @@ const Home = () => {
             <Letter />
             <div className="button-div">
               <a
-                href="https://linktr.ee/codingclub_rscoe"
+                href="https://forms.gle/4GmXJHj96kDJXQHa6"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -25,7 +25,7 @@ const Home = () => {
                   className="button animate__animated animate__bounceInUp"
                   variant="dark"
                 >
-                  Register
+                  Join The Club
                 </Button>
                 {/* <button className="button animate__animated animate__bounce" href="">
                 Register
@@ -42,7 +42,7 @@ const Home = () => {
       <Tips />
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
