@@ -17,7 +17,7 @@ const Home = () => {
             <Letter />
             <div className="button-div">
               <a
-                href="https://forms.gle/4GmXJHj96kDJXQHa6"
+                href="https://forms.gle/YYyT3hLNM43qaiuQA"
                 target="_blank"
                 rel="noreferrer"
               >
