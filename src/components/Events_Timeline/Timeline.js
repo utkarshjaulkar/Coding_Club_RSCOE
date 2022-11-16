@@ -91,12 +91,12 @@ const Timeline = () => {
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           >
             <h3 className="vertical-timeline-element-title">
-              Big Brain competion
+              Big Brain competition
             </h3>
             <p className="vertical-timeline-element-subtitle">
               The Big Brain’s Contest in Association with #CodingClubRSCOE. That
-              was conducted for second year students at JSPM's Rajarshi Shahu
-              College of Engineering. The contest consisted of 3 Rounds
+              was conducted for Second Year students at JSPM's Rajarshi Shahu
+              College of Engineering. The contest consisted of 3 Rounds:-
             </p>
             <p>1. Aptitude 2. Technical 3. Interview.</p>
             <Carousel className="carousel">
