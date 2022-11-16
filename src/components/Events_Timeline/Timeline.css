@@ -16,6 +16,18 @@
   padding: 20px;
 }
 
+
+
+.carousel{
+  height: auto;
+  width: auto;
+  
+  margin-left: 0px;
+  margin-top: 20px;
+}
+
+
+
 @media screen and (max-width: 850px) {
   .timeline-title {
     margin-top: 150px;
@@ -27,5 +39,11 @@
     justify-content: space-evenly;
     margin-left: 20px;
     border-radius: 20px;
+  }
+
+  .carousel{
+    
+    margin-left: 0px;
+    margin-top: 20px;
   }
 }

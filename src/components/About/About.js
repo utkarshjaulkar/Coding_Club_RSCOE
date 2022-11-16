@@ -1,6 +1,6 @@
-import Footer from "../Footer/Footer";
-import Navbar from "../Navbar/Navbar";
-import "./About.css";
+import Footer from '../Footer/Footer'
+import Navbar from '../Navbar/Navbar'
+import './About.css'
 
 const About = () => {
   return (
@@ -34,7 +34,7 @@ const About = () => {
                     and international programming contests.
                   </p>
                   <p>
-                    Benefits of coding club:-
+                    <div className="benefits">Benefits of coding club:-</div>
                     <ul>
                       <li>
                         NETWORK: Coding Club comprises one of the best coders
@@ -52,11 +52,7 @@ const About = () => {
                         with distinguished resumes, and helps them get into
                         their dream job.
                       </li>
-                      <li>
-                        ZERO REGISTRATION FEES: Free entry in coding
-                        competitions which helps to improve the algorithm and
-                        dynamic programming and even for other events conducted.
-                      </li>
+
                       <li>
                         SESSIONS- Sessions on Competitive Programming, machine
                         learning, android, and other coding-related topics are
@@ -84,7 +80,7 @@ const About = () => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default About;
+export default About

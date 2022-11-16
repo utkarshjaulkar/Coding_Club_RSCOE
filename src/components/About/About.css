@@ -102,6 +102,10 @@
   border-radius: 0px 0px 50% 0px;
 }
 
+.benefits{
+  font-weight: bold;
+}
+
 .pp {
   display: block;
   width: 128px;
