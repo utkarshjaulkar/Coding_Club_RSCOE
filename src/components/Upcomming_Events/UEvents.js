@@ -1,8 +1,9 @@
 import {
   VerticalTimeline,
-  VerticalTimelineElement
-} from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
+  VerticalTimelineElement,
+} from 'react-vertical-timeline-component'
+import 'react-vertical-timeline-component/style.min.css'
+import './UEvents.css'
 
 const UEvents = () => {
   return (
@@ -10,25 +11,33 @@ const UEvents = () => {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          
-          iconStyle={{ background: "rgb(33, 150, 43)", color: "#fff" }}
+          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+          iconStyle={{ background: 'rgb(33, 150, 43)', color: '#fff' }}
         >
           <h3 className="vertical-timeline-element-title">Upcoming Events</h3>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
         >
-          <h3 className="vertical-timeline-element-title">Python Session</h3>
+          <h3 className="vertical-timeline-element-title">CODING CONTEST</h3>
 
-          <p>Expert session on Python</p>
+          <p>
+            {' '}
+            💡 REGISTER NOW -{' '}
+            <a href="https://bit.ly/Coding-Contest3-RSCOE" target="_blank">
+              https://bit.ly/Coding-Contest3-RSCOE
+            </a>
+          </p>
+          <div className="upcoming1">
+            <img src="./images/ContestImage.jpeg" />
+          </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
         >
           <h3 className="vertical-timeline-element-title">
             Coding club Handover ceremony and big brain competition felicitation
@@ -48,11 +57,11 @@ const UEvents = () => {
           <p>Creative Direction, Visual Design</p>
         </VerticalTimelineElement> */}
         <VerticalTimelineElement
-          iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
+          iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
         />
       </VerticalTimeline>
     </>
-  );
-};
+  )
+}
 
-export default UEvents;
+export default UEvents

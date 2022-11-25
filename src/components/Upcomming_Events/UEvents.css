@@ -1,0 +1,30 @@
+.upcoming1{
+    width: 450px;
+    height: 600px;
+    padding-left: 40px;
+   padding-top: 30px;
+
+}
+
+.upcoming1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;    
+}
+
+
+@media screen and (max-width: 850px){
+    .upcoming1{
+        width: 260px;
+        height: 600px;
+        padding-left: 0px;
+       padding-top: 30px;
+    
+    }
+    
+    .upcoming1 img{
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;    
+    }
+}
