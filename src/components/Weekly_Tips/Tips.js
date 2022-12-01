@@ -1,5 +1,6 @@
-import "./Tips.css";
-import "animate.css";
+import React from 'react'
+import './Tips.css'
+import 'animate.css'
 
 const Tips = () => {
   return (
@@ -10,18 +11,18 @@ const Tips = () => {
       <div className="container">
         <div className="topic aanimate__animated animate__flipInX">
           <h3>
-            {" "}
+            {' '}
             <span role="img" aria-label="face">
               👩🏻‍💻
-            </span>{" "}
-            Topic{" "}
+            </span>{' '}
+            Topic{' '}
             <span role="img" aria-label="fACE">
               👩🏻‍💻
             </span>
           </h3>
           <h5>
             Problem: Given an array of integers, every element appears twice
-            except one. Find that element.{" "}
+            except one. Find that element.{' '}
             <span role="img" aria-label="bullseye">
               🎯🎯
             </span>
@@ -35,11 +36,11 @@ const Tips = () => {
         </div>
         <div className="sol">
           <h3>
-            {" "}
+            {' '}
             <span role="img" aria-label="mag-glass">
               🔎
-            </span>{" "}
-            Solution{" "}
+            </span>{' '}
+            Solution{' '}
             <span role="img" aria-label="mag-glass">
               🔎
             </span>
@@ -66,7 +67,7 @@ const Tips = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Tips;
+export default Tips

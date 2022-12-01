@@ -1,4 +1,5 @@
-import "./Letter.css";
+import React from 'react'
+import './Letter.css'
 
 const Letter = () => {
   return (
@@ -22,7 +23,7 @@ const Letter = () => {
         <div className="shadow"></div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Letter;
+export default Letter

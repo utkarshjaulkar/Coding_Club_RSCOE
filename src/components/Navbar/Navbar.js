@@ -1,11 +1,12 @@
-import { Link } from "react-router-dom";
-import { Component } from "react";
-import "./Navbar.css";
+import React from 'react'
+import { Link } from 'react-router-dom'
+import { Component } from 'react'
+import './Navbar.css'
 class Navbar extends Component {
-  state = { clicked: false };
+  state = { clicked: false }
   handleClick = () => {
-    this.setState({ clicked: !this.state.clicked });
-  };
+    this.setState({ clicked: !this.state.clicked })
+  }
 
   render() {
     return (
@@ -17,10 +18,10 @@ class Navbar extends Component {
         </h1>
         <div className="menu-icons" onClick={this.handleClick}>
           <i
-            className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
+            className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}
           ></i>
         </div>
-        <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
+        <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
           <Link className="nav-links" to="/events">
             <li>
               <i className="fa-solid fa-calendar-days"></i>
@@ -50,8 +51,8 @@ class Navbar extends Component {
           </Link>
         </ul>
       </nav>
-    );
+    )
   }
 }
 
-export default Navbar;
+export default Navbar

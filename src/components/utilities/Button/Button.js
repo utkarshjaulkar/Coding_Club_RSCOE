@@ -1,3 +1,4 @@
+import React from 'react'
 const Button = () => {
   return (
     <>
@@ -10,7 +11,7 @@ const Button = () => {
         </button>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Button;
+export default Button

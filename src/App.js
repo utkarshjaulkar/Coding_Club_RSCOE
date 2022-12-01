@@ -1,10 +1,11 @@
-import { Route, Routes, BrowserRouter } from "react-router-dom";
-import About from "./components/About/About";
-import Timeline from "./components/Events_Timeline/Timeline";
-import Faculty from "./components/Faculty/Faculty";
-import Home from "./components/Home";
-import Team from "./components/Team/Team";
-import "./styles.css";
+import React from 'react'
+import { Route, Routes, BrowserRouter } from 'react-router-dom'
+import About from './components/About/About'
+import Timeline from './components/Events_Timeline/Timeline'
+import Faculty from './components/Faculty/Faculty'
+import Home from './components/Home'
+import Team from './components/Team/Team'
+import './styles.css'
 
 export default function App() {
   return (
@@ -19,5 +20,5 @@ export default function App() {
         </Routes>
       </BrowserRouter>
     </div>
-  );
+  )
 }
