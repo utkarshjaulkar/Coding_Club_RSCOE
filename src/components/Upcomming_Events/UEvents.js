@@ -23,27 +23,32 @@ const UEvents = () => {
           className="vertical-timeline-element--education"
           iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
         >
-          <h3 className="vertical-timeline-element-title">CODING CONTEST</h3>
+          <h3 className="vertical-timeline-element-title">
+            Expert talk on GSoC and Open Source
+          </h3>
+          <h5 className="vertical-timeline-element-title">
+            By:- Mr.Sagar Utekar
+          </h5>
 
           <p>
             {' '}
             💡 REGISTER NOW -{' '}
-            <a href="https://bit.ly/Coding-Contest3-RSCOE" target="_blank">
-              https://bit.ly/Coding-Contest3-RSCOE
+            <a href="https://forms.gle/ZRWQPujVSsmLRLZF7" target="_blank">
+              https://forms.gle/ZRWQPujVSsmLRLZF7
             </a>
           </p>
           <div className="upcoming1">
-            <img src="./images/ContestImage.jpeg" />
+            <img src="./images/sargar_utekar.png" />
           </div>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
+        {/* <VerticalTimelineElement
           className="vertical-timeline-element--education"
           iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
         >
           <h3 className="vertical-timeline-element-title">
             Coding club Handover ceremony and big brain competition felicitation
           </h3>
-        </VerticalTimelineElement>
+        </VerticalTimelineElement> */}
         {/* <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2002 - 2006"
