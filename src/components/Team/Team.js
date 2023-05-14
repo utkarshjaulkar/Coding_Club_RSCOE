@@ -10,7 +10,7 @@ const Team = () => {
       <div class="team">
         <div className="new-team-1">
           <div class="c-team animate__animated animate__jackInTheBox">
-            <h3>Current team</h3>
+            <h3>Previous team</h3>
           </div>
           <div class="row">
             <div class="profile-div-1">
@@ -166,7 +166,7 @@ const Team = () => {
 
         <div className="new-team">
           <div class="c-team c-team animate__animated animate__jackInTheBox">
-            <h3>Upcomming team</h3>
+            <h3>Currrent team</h3>
           </div>
           <div class="row">
             <div class="profile-div">

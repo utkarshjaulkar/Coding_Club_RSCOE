@@ -10,7 +10,7 @@ const UEvents = () => {
   return (
     <>
       <VerticalTimeline>
-        <VerticalTimelineElement
+        {/* <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
@@ -23,24 +23,20 @@ const UEvents = () => {
           className="vertical-timeline-element--education"
           iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
         >
-          <h3 className="vertical-timeline-element-title">
-            Expert talk on GSoC and Open Source
-          </h3>
-          <h5 className="vertical-timeline-element-title">
-            By:- Mr.Sagar Utekar
-          </h5>
+          <h3 className="vertical-timeline-element-title">Escape Room</h3>
+          <h5 className="vertical-timeline-element-title">Competition</h5>
 
           <p>
             {' '}
             💡 REGISTER NOW -{' '}
-            <a href="https://forms.gle/ZRWQPujVSsmLRLZF7" target="_blank">
-              https://forms.gle/ZRWQPujVSsmLRLZF7
+            <a href="https://forms.gle/NfDD6dvwvTPCB7QT6" target="_blank">
+              https://forms.gle/NfDD6dvwvTPCB7QT6
             </a>
           </p>
           <div className="upcoming1">
-            <img src="./images/sargar_utekar.png" />
+            <img src="./events-images/EscapeRoom.png" />
           </div>
-        </VerticalTimelineElement>
+        </VerticalTimelineElement> */}
         {/* <VerticalTimelineElement
           className="vertical-timeline-element--education"
           iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}

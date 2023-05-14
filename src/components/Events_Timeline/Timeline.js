@@ -33,6 +33,58 @@ const Timeline = () => {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            date="May 2023"
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          >
+            <h3 className="vertical-timeline-element-title">Escape Room</h3>
+            <h4 className="vertical-timeline-element-subtitle"></h4>
+            <Carousel className="carousel">
+              <Carousel.Item interval={800}>
+                <img
+                  className="carousel-image d-block w-100 h-100 "
+                  src="./events-images/Escape1.jpg"
+                  alt="First slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item interval={800}>
+                <img
+                  className="d-block w-100"
+                  src="./events-images/Escape2.jpg"
+                  alt="Second slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item interval={800}>
+                <img
+                  className="d-block w-100"
+                  src="./events-images/Escape3.jpg"
+                  alt="third slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item interval={800}>
+                <img
+                  className="d-block w-100"
+                  src="./events-images/Escape4.jpg"
+                  alt="Fourth slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item interval={800}>
+                <img
+                  className="d-block w-100"
+                  src="./events-images/Escape5.jpg"
+                  alt="Fifth slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item interval={800}>
+                <img
+                  className="d-block w-100"
+                  src="./events-images/Escape6.jpg"
+                  alt="Sixth slide"
+                />
+              </Carousel.Item>
+            </Carousel>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
             date="November 2022"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           >
