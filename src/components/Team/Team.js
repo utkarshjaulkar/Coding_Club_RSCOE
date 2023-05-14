@@ -287,6 +287,35 @@ const Team = () => {
                 </ul>
               </div>
             </div>
+            <div class="profile-div">
+              <div class="our-team animate__animated animate__flip">
+                <div class="picture">
+                  <img class="img-fluid" src="./team-images/param.jpg" />
+                </div>
+                <div class="team-content">
+                  <h3 class="name">Param Pawar</h3>
+                  <h4 class="title">Event Head</h4>
+                </div>
+                <ul class="social">
+                  <li>
+                    <a
+                      href="mailto:prpawar003@gmail.com"
+                      target="_blank"
+                      class="fa-solid fa-envelope"
+                      aria-hidden="true"
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://linkedin.com/in/pawar-param/"
+                      class="fab fa-linkedin"
+                      target="_blank"
+                      aria-hidden="true"
+                    ></a>
+                  </li>{' '}
+                </ul>
+              </div>
+            </div>
 
             <div class="profile-div">
               <div class="our-team animate__animated animate__flip">
