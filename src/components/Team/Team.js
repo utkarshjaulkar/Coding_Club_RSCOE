@@ -290,7 +290,7 @@ const Team = () => {
             <div class="profile-div">
               <div class="our-team animate__animated animate__flip">
                 <div class="picture">
-                  <img class="img-fluid" src="./team-images/param.jpg" />
+                  <img class="img-fluid" src="./team-images/Param.jpg" />
                 </div>
                 <div class="team-content">
                   <h3 class="name">Param Pawar</h3>

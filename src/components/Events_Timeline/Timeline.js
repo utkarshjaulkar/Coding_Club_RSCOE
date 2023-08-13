@@ -83,9 +83,111 @@ const Timeline = () => {
               </Carousel.Item>
             </Carousel>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="November 2022"
+            date="April 2023"
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          >
+            <h3 className="vertical-timeline-element-title">
+              ICT Hands On training By ORACLE
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle"></h4>
+            <Carousel className="carousel">
+              <Carousel.Item interval={800}>
+                <img
+                  className="carousel-image d-block w-100 h-100 "
+                  src="./events-images/ICT-1.jpg"
+                  alt="First slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item interval={800}>
+                <img
+                  className="d-block w-100"
+                  src="./events-images/ICT-2.jpg"
+                  alt="Second slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item interval={800}>
+                <img
+                  className="d-block w-100"
+                  src="./events-images/ICT-3.jpg"
+                  alt="third slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item interval={800}>
+                <img
+                  className="d-block w-100"
+                  src="./events-images/ICT-4.jpg"
+                  alt="Fourth slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item interval={800}>
+                <img
+                  className="d-block w-100"
+                  src="./events-images/ICT-5.jpg"
+                  alt="Fifth slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item interval={800}>
+                <img
+                  className="d-block w-100"
+                  src="./events-images/ICT-6.jpg"
+                  alt="Sixth slide"
+                />
+              </Carousel.Item>
+            </Carousel>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="October 2022"
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Big Brain competition
+            </h3>
+            <p className="vertical-timeline-element-subtitle">
+              The Big Brain’s Contest in Association with #CodingClubRSCOE. That
+              was conducted for Second Year students at JSPM's Rajarshi Shahu
+              College of Engineering. The contest consisted of 3 Rounds:-
+            </p>
+            <p>1. Aptitude 2. Technical 3. Interview.</p>
+            <Carousel className="carousel">
+              <Carousel.Item interval={800}>
+                <img
+                  className="carousel-image d-block w-100 h-100 "
+                  src="./events-images/bigbrain-1.jpeg"
+                  alt="First slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item interval={800}>
+                <img
+                  className="d-block w-100"
+                  src="./events-images/bigbrain-2.jpeg"
+                  alt="Second slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item interval={800}>
+                <img
+                  className="d-block w-100"
+                  src="./events-images/bigbrain-3.jpeg"
+                  alt="Third slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item interval={800}>
+                <img
+                  className="d-block w-100"
+                  src="./events-images/bigbrain-4.jpeg"
+                  alt="Fourth slide"
+                />
+              </Carousel.Item>
+            </Carousel>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date=" 2022"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           >
             <h3 className="vertical-timeline-element-title">
@@ -135,50 +237,11 @@ const Timeline = () => {
                   alt="Sixth slide"
                 />
               </Carousel.Item>
-            </Carousel>
-          </VerticalTimelineElement>
-
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="September 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          >
-            <h3 className="vertical-timeline-element-title">
-              Big Brain competition
-            </h3>
-            <p className="vertical-timeline-element-subtitle">
-              The Big Brain’s Contest in Association with #CodingClubRSCOE. That
-              was conducted for Second Year students at JSPM's Rajarshi Shahu
-              College of Engineering. The contest consisted of 3 Rounds:-
-            </p>
-            <p>1. Aptitude 2. Technical 3. Interview.</p>
-            <Carousel className="carousel">
-              <Carousel.Item interval={800}>
-                <img
-                  className="carousel-image d-block w-100 h-100 "
-                  src="./events-images/bigbrain-1.jpeg"
-                  alt="First slide"
-                />
-              </Carousel.Item>
               <Carousel.Item interval={800}>
                 <img
                   className="d-block w-100"
-                  src="./events-images/bigbrain-2.jpeg"
-                  alt="Second slide"
-                />
-              </Carousel.Item>
-              <Carousel.Item interval={800}>
-                <img
-                  className="d-block w-100"
-                  src="./events-images/bigbrain-3.jpeg"
-                  alt="Third slide"
-                />
-              </Carousel.Item>
-              <Carousel.Item interval={800}>
-                <img
-                  className="d-block w-100"
-                  src="./events-images/bigbrain-4.jpeg"
-                  alt="Fourth slide"
+                  src="./events-images/induction-7.jpg"
+                  alt="Seventh slide"
                 />
               </Carousel.Item>
             </Carousel>
@@ -186,7 +249,7 @@ const Timeline = () => {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2022"
+            date="Jun 2022"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           >
             <h3 className="vertical-timeline-element-title">
