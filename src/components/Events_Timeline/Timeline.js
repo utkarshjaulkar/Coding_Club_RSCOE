@@ -108,13 +108,7 @@ const Timeline = () => {
                   alt="Second slide"
                 />
               </Carousel.Item>
-              <Carousel.Item interval={800}>
-                <img
-                  className="d-block w-100"
-                  src="./events-images/ICT-3.jpg"
-                  alt="third slide"
-                />
-              </Carousel.Item>
+
               <Carousel.Item interval={800}>
                 <img
                   className="d-block w-100"

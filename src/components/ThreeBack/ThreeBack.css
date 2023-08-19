@@ -1,0 +1,66 @@
+.three-main,
+html,
+body,
+.bg,
+canvas {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+canvas {
+  margin-top: 20px;
+}
+
+.bg {
+  padding-top: 40px;
+  position: absolute;
+  background: radial-gradient(
+    at 50% 100%,
+    #873740 0%,
+    #272730 40%,
+    #171720 80%,
+    #070710 100%
+  );
+}
+
+.layer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(63, 12, 88, 0.25) 0%,
+    transparent 100%
+  );
+  pointer-events: none;
+}
+
+span.header {
+  font-weight: 700;
+  position: absolute;
+  display: inline-block;
+  width: 500px;
+  transform: translate3d(0, -50%, 0);
+  font-size: 9em;
+  line-height: 0.9em;
+  pointer-events: none;
+  top: 350px;
+  left: 50px;
+}
+
+span.header-left {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  position: absolute;
+  display: inline-block;
+  transform: translate3d(0, -50%, 0);
+  line-height: 1em;
+  top: 200px;
+  left: 60px;
+  font-size: 4em;
+  width: 200px;
+}
