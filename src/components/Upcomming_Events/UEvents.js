@@ -10,7 +10,7 @@ const UEvents = () => {
   return (
     <>
       <VerticalTimeline>
-        {/* <VerticalTimelineElement
+        <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
@@ -23,20 +23,30 @@ const UEvents = () => {
           className="vertical-timeline-element--education"
           iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
         >
-          <h3 className="vertical-timeline-element-title">Escape Room</h3>
+          <h3 className="vertical-timeline-element-title">CODIGO 3.0</h3>
           <h5 className="vertical-timeline-element-title">Competition</h5>
 
           <p>
             {' '}
             💡 REGISTER NOW -{' '}
-            <a href="https://forms.gle/NfDD6dvwvTPCB7QT6" target="_blank">
-              https://forms.gle/NfDD6dvwvTPCB7QT6
+            <a href="https://forms.gle/BRaxeiv4XJkN9P2t9" target="_blank">
+              https://forms.gle/BRaxeiv4XJkN9P2t9
+            </a>
+          </p>
+          <p>
+            {' '}
+            📝 Details of rounds can be found here -{' '}
+            <a
+              href="https://docs.google.com/document/d/1L-GD0aP-souzVEnadmBvPA_rK9cnz9ZHVP2POkb3VD4/edit?usp=sharing"
+              target="_blank"
+            >
+              Click Here
             </a>
           </p>
           <div className="upcoming1">
-            <img src="./events-images/EscapeRoom.png" />
+            <img src="./events-images/Codigo3.jpg" />
           </div>
-        </VerticalTimelineElement> */}
+        </VerticalTimelineElement>
         {/* <VerticalTimelineElement
           className="vertical-timeline-element--education"
           iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
