@@ -164,6 +164,73 @@ const Team = () => {
           </div>
         </div>
 
+        <div class="profile-div">
+          <div class="our-team animate__animated animate__flip">
+            <div class="picture">
+              <img class="img-fluid" src="./team-images/aryan.jpg" />
+            </div>
+            <div class="team-content">
+              <h3 class="name">Aryan Jain</h3>
+              <h4 class="title">Vice-President</h4>
+            </div>
+            <ul class="social">
+              <li>
+                <a
+                  href="mailto:jainaryan158@gmail.com"
+                  target="_blank"
+                  class="fa-solid fa-envelope"
+                  aria-hidden="true"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="http://www.linkedin.com/in/aryan-jain-5a05b5251"
+                  target="_blank"
+                  class="fab fa-linkedin"
+                  aria-hidden="true"
+                ></a>
+              </li>{' '}
+            </ul>
+          </div>
+        </div>
+        <div class="profile-div">
+          <div class="our-team animate__animated animate__flip">
+            <div class="picture">
+              <img class="img-fluid" src="./team-images/utkarsh-.jpg" />
+            </div>
+            <div class="team-content">
+              <h3 class="name">Utkarsh Jaulkar</h3>
+              <h4 class="title">Web Head</h4>
+            </div>
+            <ul class="social">
+              <li>
+                <a
+                  href="mailto:ujaulkar1604@gmail.com"
+                  target="_blank"
+                  class="fa-solid fa-envelope"
+                  aria-hidden="true"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/utkarshjaulkar"
+                  target="_blank"
+                  class="fab fa-github"
+                  aria-hidden="true"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/utkarsh-jaulkar/"
+                  target="_blank"
+                  class="fab fa-linkedin"
+                  aria-hidden="true"
+                ></a>
+              </li>{' '}
+            </ul>
+          </div>
+        </div>
+
         <div className="new-team">
           <div class="c-team c-team animate__animated animate__jackInTheBox">
             <h3>Currrent team</h3>
@@ -198,19 +265,20 @@ const Team = () => {
                 </ul>
               </div>
             </div>
+
             <div class="profile-div">
               <div class="our-team animate__animated animate__flip">
                 <div class="picture">
-                  <img class="img-fluid" src="./team-images/aryan.jpg" />
+                  <img class="img-fluid" src="./team-images/pratiksha.jpg" />
                 </div>
                 <div class="team-content">
-                  <h3 class="name">Aryan Jain</h3>
-                  <h4 class="title">Vice-President</h4>
+                  <h3 class="name">Pratiksha Patil </h3>
+                  <h4 class="title">Overall development head</h4>
                 </div>
                 <ul class="social">
                   <li>
                     <a
-                      href="mailto:jainaryan158@gmail.com"
+                      href="mailto:pratikshap2404@gmail.com"
                       target="_blank"
                       class="fa-solid fa-envelope"
                       aria-hidden="true"
@@ -218,7 +286,7 @@ const Team = () => {
                   </li>
                   <li>
                     <a
-                      href="http://www.linkedin.com/in/aryan-jain-5a05b5251"
+                      href="ttps://www.linkedin.com/in/pratiksha-patil-7b5385209/"
                       target="_blank"
                       class="fab fa-linkedin"
                       aria-hidden="true"
@@ -310,44 +378,6 @@ const Team = () => {
                       href="https://linkedin.com/in/pawar-param/"
                       class="fab fa-linkedin"
                       target="_blank"
-                      aria-hidden="true"
-                    ></a>
-                  </li>{' '}
-                </ul>
-              </div>
-            </div>
-
-            <div class="profile-div">
-              <div class="our-team animate__animated animate__flip">
-                <div class="picture">
-                  <img class="img-fluid" src="./team-images/utkarsh-.jpg" />
-                </div>
-                <div class="team-content">
-                  <h3 class="name">Utkarsh Jaulkar</h3>
-                  <h4 class="title">Web Head</h4>
-                </div>
-                <ul class="social">
-                  <li>
-                    <a
-                      href="mailto:ujaulkar1604@gmail.com"
-                      target="_blank"
-                      class="fa-solid fa-envelope"
-                      aria-hidden="true"
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://github.com/utkarshjaulkar"
-                      target="_blank"
-                      class="fab fa-github"
-                      aria-hidden="true"
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.linkedin.com/in/utkarsh-jaulkar/"
-                      target="_blank"
-                      class="fab fa-linkedin"
                       aria-hidden="true"
                     ></a>
                   </li>{' '}
@@ -564,36 +594,6 @@ const Team = () => {
                   <li>
                     <a
                       href="https://www.linkedin.com/in/vaibhav-lokhande-216710219"
-                      target="_blank"
-                      class="fab fa-linkedin"
-                      aria-hidden="true"
-                    ></a>
-                  </li>{' '}
-                </ul>
-              </div>
-            </div>
-
-            <div class="profile-div">
-              <div class="our-team animate__animated animate__flip">
-                <div class="picture">
-                  <img class="img-fluid" src="./team-images/pratiksha.jpg" />
-                </div>
-                <div class="team-content">
-                  <h3 class="name">Pratiksha Patil </h3>
-                  <h4 class="title">Overall development head</h4>
-                </div>
-                <ul class="social">
-                  <li>
-                    <a
-                      href="mailto:pratikshap2404@gmail.com"
-                      target="_blank"
-                      class="fa-solid fa-envelope"
-                      aria-hidden="true"
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="ttps://www.linkedin.com/in/pratiksha-patil-7b5385209/"
                       target="_blank"
                       class="fab fa-linkedin"
                       aria-hidden="true"
